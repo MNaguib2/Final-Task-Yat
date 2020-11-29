@@ -18,3 +18,54 @@ div.list-group > a {
 	height: 8vh;
 	font-size: x-large;
 	}
+	.slider {
+        width: 90%;
+        margin: 100px auto;
+	}
+	.slick-slide {
+		margin: 0px 20px;
+	  }
+  
+	  .slick-slide img {
+		width: 100%;
+	  }
+  
+	  .slick-prev:before,
+	  .slick-next:before {
+		color: black;
+		background-color: black;
+	  }
+  
+  
+	  .slick-slide {
+		transition: all ease-in-out .3s;
+		opacity: .2;
+	  }
+	  
+	  .slick-active {
+		opacity: 1;
+	  }
+  
+	  .slick-current {
+		opacity: 1;
+	  }
+	  .namecatthing{
+		  margin-top: -5px;
+		  width: 98%;
+	  }
+	  .textcategory + hr{
+		border: 0; 
+  		height: 2px; 
+		background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+		background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+		background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+		background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+	  }
+	  .namecatthing .textcategory{
+		font-style:oblique;
+	  }
+
+	  hr{
+		height: 3px;
+		background-color: gray;
+	  }
