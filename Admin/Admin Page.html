@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../CSS/BootStrap/bootstrap.min.css">
 	<link rel="stylesheet" href="../CSS/BootStrap/mdb.min.css">
-	<link rel="stylesheet" href="./Style.css">
+	<link rel="stylesheet" href="./Styleadmin.css">
+	<link rel="stylesheet" href="../CSS/Style.css">
 	<link rel="stylesheet" type="text/css" href="../slick/slick.css">
 	<link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
 	<link href="../fonts/css/all.css" rel="stylesheet">
@@ -25,18 +26,21 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-link active mt-2">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
 					</li>
-					
+
 					<li class="nav-item dropdown ml-5">
-						<img class="nav-Item dropdown-toggle" id="imagelogpro" data-toggle="dropdown" src="../Image/profile.png" style="height: 10vh;"  role="button" aria-haspopup="true" aria-expanded="false"><label for="imagelogpro" data-toggle="dropdown" role="button">mena_afefe3000@yahoo.com</label></img>
+						<img class="nav-Item dropdown-toggle" id="imagelogpro" data-toggle="dropdown"
+							src="../Image/profile.png" style="height: 10vh;" role="button" aria-haspopup="true"
+							aria-expanded="false"><label for="imagelogpro" data-toggle="dropdown"
+							role="button">mena_afefe3000@yahoo.com</label></img>
 						<div class="dropdown-menu">
 							<a class="dropdown-item" href="#">Profile</a>
 							<a class="dropdown-item" href="#">Add new think</a>
 							<a class="dropdown-item" href="#">Setting</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="../index.html">Log Out</a>
-						  </div>
+						</div>
 					</li>
 				</ul>
 				<form class="form-inline my-2 my-lg-0">
@@ -46,58 +50,446 @@
 			</div>
 		</nav>
 	</section>
-	<section class="row">
-		<div class="nav flex-column nav-pills col-md-2 col-lg-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-			<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" style="text-align: center;" aria-selected="true">Home</a>
-			<a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" style="text-align: center;" aria-selected="false">Members</a>
-			<a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" style="text-align: center;" aria-selected="false">Category Think</a>
-			<a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" style="text-align: center;" aria-selected="false">Thinks</a>
-		  </div>
-		  <div class="tab-content" id="v-pills-tabContent">
-			<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+	<section class="row" style="max-width: 98vw;">
+		<div class="nav flex-column nav-pills col-md-2 col-lg-2" id="v-pills-tab" role="tablist"
+			aria-orientation="vertical">
+			<a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+				aria-controls="v-pills-home" style="text-align: center;" aria-selected="true">Home</a>
+			<a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+				aria-controls="v-pills-profile" style="text-align: center;" aria-selected="false">Members</a>
+			<a class="nav-link active" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+				aria-controls="v-pills-messages" style="text-align: center;" aria-selected="false">Category Think</a>
+			<a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+				aria-controls="v-pills-settings" style="text-align: center;" aria-selected="false">Thinks</a>
+		</div>
+		<div class="tab-content col-md-10" id="v-pills-tabContent">
+			<div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
 				<div class="row">
-				<div class="flip-card ml-5">
-					<div class="flip-card-inner">
-					  <div class="flip-card-front">
-						<img src="../Image/Setting Profile Admin/Member.png" alt="Avatar" style="width: 300px;height: 300px;">
-					  </div>
-					  <div class="flip-card-back">
-						<h1>Hello Admin</h1> 
-						<p>Number Of Member in Your website</p> 
-						<p>Is 5000</p>
-					  </div>
+					<div class="flip-card ml-5">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="../Image/Setting Profile Admin/Member.png" alt="Avatar"
+									style="width: 300px;height: 300px;">
+							</div>
+							<div class="flip-card-back">
+								<h1>Hello Admin</h1>
+								<p>Number Of Member in Your website</p>
+								<p>Is 5000</p>
+							</div>
+						</div>
 					</div>
-				  </div>
-				  <div class="flip-card ml-5">
-					<div class="flip-card-inner">
-					  <div class="flip-card-front">
-						<img src="../Image/Setting Profile Admin/category.png" alt="Category" style="width: 300px;height: 300px;">
-					  </div>
-					  <div class="flip-card-back">
-						<h1>Hello Admin</h1> 
-						<p>Number Of Category Think</p> 
-						<p>Is 5000</p>
-					  </div>
+					<div class="flip-card ml-5">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="../Image/Setting Profile Admin/category.png" alt="Category"
+									style="width: 300px;height: 300px;">
+							</div>
+							<div class="flip-card-back">
+								<h1>Hello Admin</h1>
+								<p>Number Of Category Think</p>
+								<p>Is 5000</p>
+							</div>
+						</div>
 					</div>
-				  </div>
-				  <div class="flip-card ml-5">
-					<div class="flip-card-inner">
-					  <div class="flip-card-front">
-						<img src="../Image/Setting Profile Admin/thinks.jpg" alt="Category" style="width: 300px;height: 300px;">
-					  </div>
-					  <div class="flip-card-back">
-						<h1>Hello Admin</h1> 
-						<p>Number Of Think</p> 
-						<p>Is 5000</p>
-					  </div>
+					<div class="flip-card ml-5">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="../Image/Setting Profile Admin/thinks.jpg" alt="Category"
+									style="width: 300px;height: 300px;">
+							</div>
+							<div class="flip-card-back">
+								<h1>Hello Admin</h1>
+								<p>Number Of Think</p>
+								<p>Is 5000</p>
+							</div>
+						</div>
 					</div>
-				  </div>
-				</div>				  
+				</div>
 			</div>
-			<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-			<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-			<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-		  </div>
+			<div class="tab-pane fade" style="max-height: 75vh; overflow-y: auto;" id="v-pills-profile" role="tabpanel"
+				aria-labelledby="v-pills-profile-tab">
+
+					<div class="memberlist">
+						<h4 class="DetialsMember"><span class="titlemember">Name :</span>Mena Afefe sdknklsfjn skjenrjewrjkewrewkjrn <span class="titlemember">ID : </span>34875 <span class="titlemember">Email : </span>mena_afefe@3000.com</h4>
+						<!--<span class="vertical"></span>-->
+						<button class="ButtonMember btn btn-warning">Hold</button>
+						<button class="ButtonMember btn btn-danger">Delete</button>
+					</div>
+
+					<div class="memberlist">
+						<h4 class="DetialsMember"><span class="titlemember">Name :</span>Mena Afefe <span class="titlemember">ID : </span>34875 <span class="titlemember">Email : </span>mena_afefe@3000.com</h4>
+						<!--<span class="vertical"></span>-->
+						<button class="ButtonMember btn btn-warning">Hold</button>
+						<button class="ButtonMember btn btn-danger">Delete</button>
+					</div>
+
+					<div class="memberlist">
+						<h4 class="DetialsMember"><span class="titlemember">Name :</span>Mena Afefe <span class="titlemember">ID : </span>34875 <span class="titlemember">Email : </span>mena_afefe@3000.com</h4>
+						<!--<span class="vertical"></span>-->
+						<button class="ButtonMember btn btn-warning">Hold</button>
+						<button class="ButtonMember btn btn-danger">Delete</button>
+					</div>
+
+					<div class="memberlist">
+						<h4 class="DetialsMember"><span class="titlemember">Name :</span>Mena Afefe <span class="titlemember">ID : </span>34875 <span class="titlemember">Email : </span>mena_afefe@3000.com</h4>
+						<!--<span class="vertical"></span>-->
+						<button class="ButtonMember btn btn-warning">Hold</button>
+						<button class="ButtonMember btn btn-danger">Delete</button>
+					</div>
+
+					<div class="memberlist">
+						<h4 class="DetialsMember"><span class="titlemember">Name :</span>Mena Afefe <span class="titlemember">ID : </span>34875 <span class="titlemember">Email : </span>mena_afefe@3000.com</h4>
+						<!--<span class="vertical"></span>-->
+						<button class="ButtonMember btn btn-warning">Hold</button>
+						<button class="ButtonMember btn btn-danger">Delete</button>
+					</div>
+
+					<div class="memberlist">
+						<h4 class="DetialsMember"><span class="titlemember">Name :</span>Mena Afefe <span class="titlemember">ID : </span>34875 <span class="titlemember">Email : </span>mena_afefe@3000.com</h4>
+						<!--<span class="vertical"></span>-->
+						<button class="ButtonMember btn btn-warning">Hold</button>
+						<button class="ButtonMember btn btn-danger">Delete</button>
+					</div>
+
+					<div class="memberlist">
+						<h4 class="DetialsMember"><span class="titlemember">Name :</span>Mena Afefe <span class="titlemember">ID : </span>34875 <span class="titlemember">Email : </span>mena_afefe@3000.com</h4>
+						<!--<span class="vertical"></span>-->
+						<button class="ButtonMember btn btn-warning">Hold</button>
+						<button class="ButtonMember btn btn-danger">Delete</button>
+					</div>
+
+					<div class="memberlist">
+						<h4 class="DetialsMember"><span class="titlemember">Name :</span>Mena Afefe <span class="titlemember">ID : </span>34875 <span class="titlemember">Email : </span>mena_afefe@3000.com</h4>
+						<!--<span class="vertical"></span>-->
+						<button class="ButtonMember btn btn-warning">Hold</button>
+						<button class="ButtonMember btn btn-danger">Delete</button>
+					</div>
+
+			</div>
+			<div class="tab-pane fade active show" id="v-pills-messages" style="max-height: 75vh; overflow-y: auto;" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+				<table id="Table_id" class="table table-striped text-center">
+					<thead class="thead-dark">
+					<tr>
+					   <td>#ID</td>
+					   <td>Category Name</td>
+					   <td>Discrpition</td>
+					   <td>Registered-date</td>
+					   <td>Control</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+					   <th scope="row">1</th>
+					   <td>Category Think Number 1</td>
+					   <td>lksdjfkojdsklfjdsklfjkldsjfkjds</td>
+					   <td>10-20-2018</td>
+					   <td>    
+						   <a href="#" class="d-inline-block control-button delete mb-2 m-lg-0"><i class="fas fa-trash-alt"></i> delete</a>
+						  <a href="#" id="row-1" onclick="edite({id})" class="d-inline-block control-button edit "><i class="fa fa-edit"></i> edit</a>
+					   </td>
+					</tr>
+
+					<tr>
+						<th scope="row">2</th>
+						<td>Category Think Number 2</td>
+						<td><p>lksdjfkojdsklfjdsklfjkldsjfkjds</p></td>
+						<td>10-20-2018</td>
+						<td>    
+							<a href="#" class="d-inline-block control-button delete mb-2 m-lg-0"><i class="fas fa-trash-alt"></i> delete</a>
+						   <a href="editcategory.html" class="d-inline-block control-button edit "><i class="fa fa-edit"></i> edit</a>
+						</td>
+					 </tr>
+
+					 <tr>
+						<th scope="row">3</th>
+						<td>Category Think Number 3</td>
+						<td>lksdjfkojdsklfjdsklfjkldsjfkjds</td>
+						<td>10-20-2018</td>
+						<td>    
+							<a href="#" class="d-inline-block control-button delete mb-2 m-lg-0"><i class="fas fa-trash-alt"></i> delete</a>
+						   <a href="editcategory.html" class="d-inline-block control-button edit "><i class="fa fa-edit"></i> edit</a>
+						</td>
+					 </tr>
+
+					 <tr>
+						<th scope="row">4</th>
+						<td>Category Think Number 4</td>
+						<td>lksdjfkojdsklfjdsklfjkldsjfkjds</td>
+						<td>10-20-2018</td>
+						<td>    
+							<a href="#" class="d-inline-block control-button delete mb-2 m-lg-0"><i class="fas fa-trash-alt"></i> delete</a>
+						   <a href="editcategory.html" class="d-inline-block control-button edit "><i class="fa fa-edit"></i> edit</a>
+						</td>
+					 </tr>
+
+					 <tr>
+						<th scope="row">5</th>
+						<td>Category Think Number 5</td>
+						<td>lksdjfkojdsklfjdsklfjkldsjfkjds</td>
+						<td>10-20-2018</td>
+						<td>    
+							<a href="#" class="d-inline-block control-button delete mb-2 m-lg-0"><i class="fas fa-trash-alt"></i> delete</a>
+						   <a href="editcategory.html" class="d-inline-block control-button edit "><i class="fa fa-edit"></i> edit</a>
+						</td>
+					 </tr>
+
+					 <tr>
+						<th scope="row">6</th>
+						<td>Category Think Number 6</td>
+						<td>lksdjfkojdsklfjdsklfjkldsjfkjds</td>
+						<td>10-20-2018</td>
+						<td>    
+							<a href="#" class="d-inline-block control-button delete mb-2 m-lg-0"><i class="fas fa-trash-alt"></i> delete</a>
+						   <a href="editcategory.html" class="d-inline-block control-button edit "><i class="fa fa-edit"></i> edit</a>
+						</td>
+					 </tr>
+
+					 <tr>
+						<th scope="row">7</th>
+						<td>Category Think Number 7</td>
+						<td>lksdjfkojdsklfjdsDSFDSFDSF SADDASDAS ASDASDAD  SADASDASDASDOH klfjkldsjfkjds</td>
+						<td>10-20-2018</td>
+						<td>    
+							<a href="#" class="d-inline-block control-button delete mb-2 m-lg-0"><i class="fas fa-trash-alt"></i> delete</a>
+						   <a href="editcategory.html" class="d-inline-block control-button edit "><i class="fa fa-edit"></i> edit</a>
+						</td>
+					 </tr>
+
+					</tbody>
+				 </table>
+			</div>
+			<div class="tab-pane fade" id="v-pills-settings" style="max-height: 75vh; overflow-y: auto;" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+				<div class="namecatthing">
+					<h4 class="textcategory">test category</h4>
+					<hr>
+					<div class="row pb-3">
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="card ">
+								<a href="./Detials Page/view.html"><img class="card-img-top"
+										src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title">
+										<a href="./Detials Page/view.html">Item click five</a>
+									</h4>
+									<h5>$60</h5>
+									<p class="card-text description" id="discription5-0" style="display: inline;">Contrary
+										to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+										classical Latin literature from 45 BC, making it over 2000 years old. Richard
+										McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one
+										of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, written in
+										45 BC. This book is a treatise on the theory of ethics, very popular during the
+										Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from
+										a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
+										reproduced below </p>
+									<a class="stretched-link text-danger"
+										style="position: relative;display: inline;cursor : pointer" id="discription5-0"
+										onclick="toggleContent({id})">Read More</a>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="card ">
+								<a href="./Detials Page/view.html"><img class="card-img-top"
+										src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title">
+										<a href="./Detials Page/view.html">Item click four</a>
+									</h4>
+									<h5>$60</h5>
+									<p class="card-text description" id="discription5-1" style="display: inline;">Contrary
+										to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+										classical Latin literature from 45 BC, making it over 2000 years old. Richard
+										McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one
+										of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, written in
+										45 BC. This book is a treatise on the theory of ethics, very popular during the
+										Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from
+										a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
+										reproduced below </p>
+									<a class="stretched-link text-danger"
+										style="position: relative;display: inline;cursor : pointer" id="discription5-1"
+										onclick="toggleContent({id})">Read More</a>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="card ">
+								<a href="./Detials Page/view.html"><img class="card-img-top"
+										src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title">
+										<a href="./Detials Page/view.html">Item click four</a>
+									</h4>
+									<h5>$60</h5>
+									<p class="card-text description" id="discription5-2" style="display: inline;">Contrary
+										to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+										classical Latin literature from 45 BC, making it over 2000 years old. Richard
+										McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one
+										of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, written in
+										45 BC. This book is a treatise on the theory of ethics, very popular during the
+										Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from
+										a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
+										reproduced below </p>
+									<a class="stretched-link text-danger"
+										style="position: relative;display: inline;cursor : pointer" id="discription5-2"
+										onclick="toggleContent({id})">Read More</a>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="card ">
+								<a href="./Detials Page/view.html"><img class="card-img-top"
+										src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title">
+										<a href="./Detials Page/view.html">Item click four</a>
+									</h4>
+									<h5>$60</h5>
+									<p class="card-text description" id="discription5-3" style="display: inline;">Contrary
+										to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+										classical Latin literature from 45 BC, making it over 2000 years old. Richard
+										McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one
+										of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, written in
+										45 BC. This book is a treatise on the theory of ethics, very popular during the
+										Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from
+										a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
+										reproduced below </p>
+									<a class="stretched-link text-danger"
+										style="position: relative;display: inline;cursor : pointer" id="discription5-3"
+										onclick="toggleContent({id})">Read More</a>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+				<div class="namecatthing">
+					<h4 class="textcategory">test category</h4>
+					<hr>
+					<div class="row pb-3">
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="card ">
+								<a href="./Detials Page/view.html"><img class="card-img-top"
+										src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title">
+										<a href="./Detials Page/view.html">Item click five</a>
+									</h4>
+									<h5>$60</h5>
+									<p class="card-text description" id="discription6-0" style="display: inline;">Contrary
+										to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+										classical Latin literature from 45 BC, making it over 2000 years old. Richard
+										McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one
+										of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, written in
+										45 BC. This book is a treatise on the theory of ethics, very popular during the
+										Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from
+										a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
+										reproduced below </p>
+									<a class="stretched-link text-danger"
+										style="position: relative;display: inline;cursor : pointer" id="discription6-0"
+										onclick="toggleContent({id})">Read More</a>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="card ">
+								<a href="./Detials Page/view.html"><img class="card-img-top"
+										src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title">
+										<a href="./Detials Page/view.html">Item click four</a>
+									</h4>
+									<h5>$60</h5>
+									<p class="card-text description" id="discription6-1" style="display: inline;">Contrary
+										to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+										classical Latin literature from 45 BC, making it over 2000 years old. Richard
+										McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one
+										of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, written in
+										45 BC. This book is a treatise on the theory of ethics, very popular during the
+										Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from
+										a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
+										reproduced below </p>
+									<a class="stretched-link text-danger"
+										style="position: relative;display: inline;cursor : pointer" id="discription6-1"
+										onclick="toggleContent({id})">Read More</a>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="card ">
+								<a href="./Detials Page/view.html"><img class="card-img-top"
+										src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title">
+										<a href="./Detials Page/view.html">Item click four</a>
+									</h4>
+									<h5>$60</h5>
+									<p class="card-text description" id="discription6-2" style="display: inline;">Contrary
+										to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+										classical Latin literature from 45 BC, making it over 2000 years old. Richard
+										McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one
+										of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, written in
+										45 BC. This book is a treatise on the theory of ethics, very popular during the
+										Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from
+										a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
+										reproduced below </p>
+									<a class="stretched-link text-danger"
+										style="position: relative;display: inline;cursor : pointer" id="discription6-2"
+										onclick="toggleContent({id})">Read More</a>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="card ">
+								<a href="./Detials Page/view.html"><img class="card-img-top"
+										src="http://placehold.it/700x400" alt=""></a>
+								<div class="card-body">
+									<h4 class="card-title">
+										<a href="./Detials Page/view.html">Item click four</a>
+									</h4>
+									<h5>$60</h5>
+									<p class="card-text description" id="discription6-3" style="display: inline;">Contrary
+										to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+										classical Latin literature from 45 BC, making it over 2000 years old. Richard
+										McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one
+										of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, written in
+										45 BC. This book is a treatise on the theory of ethics, very popular during the
+										Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from
+										a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is
+										reproduced below </p>
+									<a class="stretched-link text-danger"
+										style="position: relative;display: inline;cursor : pointer" id="discription6-3"
+										onclick="toggleContent({id})">Read More</a>
+								</div>
+								<div class="card-footer">
+									<small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!-- Footer -->
 	<footer class="page-footer font-small unique-color-dark mt-2">
@@ -247,7 +639,8 @@
 	<script src="../JavaScript/js/bootstrap.min.js"></script>
 	<script src="../slick/slick.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript" src="../JavaScript/js/mdb.min.js"></script>
-	<script src="./script.js"></script>
+	<script src="../JavaScript/script.js"></script>
+	<script src="./scriptadmin.js"></script>
 </body>
 
 </html>
